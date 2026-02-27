@@ -1,1 +1,134 @@
-# Your CV data in YAML format
+personal_info:
+  name: "Aakash Vats"
+  phone: "+49 15782471660"
+  email: "Aakash_vats15@hotmail.com"
+  location: "Frankfurt, Germany"
+  linkedin: "https://linkedin.com/in/aakashvats15"
+  github: "https://github.com/AakashVats15"
+
+summary:
+  - paragraph: >
+      Quantitative researcher with a strong foundation in stochastic processes,
+      numerical optimisation, and statistical signal analysis, transitioning into
+      systematic modelling and derivatives research. Experienced in building Monte
+      Carlo engines, volatility-forecasting models (ARIMA/GARCH), machine-learning
+      pipelines for time-series forecasting and risk modelling, and risk-neutral
+      pricing frameworks in Python.
+
+work_experience:
+  - role: "RF Design & Signal Processing Engineer"
+    company: "QEST GmbH"
+    location: "Holzgerlingen, Germany"
+    start_date: "2023-09"
+    end_date: "Present"
+    bullets:
+      - "Built simulation pipelines using probabilistic methods, Monte Carlo scenario generation, time-series analysis, and ML-based regression models, increasing model throughput by 25% across 1,000+ uncertainty scenarios."
+      - "Applied PCA, covariance analysis, and optimisation routines to calibrate high-dimensional system models, reducing parameter-estimation error by 18% and improving model stability."
+
+  - role: "RF Modelling Intern"
+    company: "Airbus Space & Defence"
+    location: "Friedrichshafen, Germany"
+    start_date: "2023-02"
+    end_date: "2023-06"
+    bullets:
+      - "Developed stochastic, simulation-based, and machine-learning-assisted models to analyse RF performance under noise and interference, improving robustness assessment across 500+ environmental scenarios."
+      - "Performed variance analysis, parameter calibration, and statistical fitting, reducing instability in system response by 15% across test conditions."
+
+  - role: "Research & Statistical Modelling HiWi"
+    company: "Fraunhofer HHI / TU Ilmenau"
+    location: "Ilmenau/Berlin, Germany"
+    start_date: "2020-08"
+    end_date: "2022-12"
+    bullets:
+      - "Built statistical models for correlated high-dimensional systems, reducing dimensionality from 80+ variables to 6 principal components using PCA and eigenanalysis."
+      - "Developed Python/MATLAB frameworks for time-series analysis, supervised learning experiments, and simulation-based evaluation, improving analysis speed by 30% and enabling reproducible research workflows."
+
+education:
+  - degree: "M.Sc."
+    field: "Communication and Signal Processing"
+    institution: "Technical University of Ilmenau"
+    location: "Ilmenau, Germany"
+    start_year: 2019
+    end_year: 2023
+    thesis: "Waveform-based synchronization using statistical estimation and time-frequency analysis."
+
+  - degree: "B.Tech"
+    field: "Electronics and Communications Engineering"
+    institution: "GD Goenka University"
+    location: "India"
+    start_year: 2013
+    end_year: 2017
+    thesis: null
+
+projects:
+  - name: "Derivatives Pricing Framework"
+    description: "Modular pricing engine implementing Black-Scholes analytics."
+    technologies: ["Python", "NumPy", "SciPy"]
+    link: "https://github.com/AakashVats15"
+
+  - name: "Volatility Modelling & GARCH"
+    description: "Implemented ARCH/GARCH(1,1) models for volatility forecasting."
+    technologies: ["Python", "statsmodels"]
+    link: "https://github.com/AakashVats15"
+
+  - name: "ML-Driven Stock Forecasting (NVIDIA)"
+    description: "Modular ML pipeline for NVIDIA stock forecasting."
+    technologies: ["Python", "scikit-learn", "Pandas"]
+    link: "https://github.com/AakashVats15"
+
+  - name: "ML-Driven Risk Modelling for NVIDIA"
+    description: "ML-based risk-estimation framework for single-stock analysis."
+    technologies: ["Python", "NumPy", "scikit-learn"]
+    link: "https://github.com/AakashVats15"
+
+  - name: "Financial Time-Series & Risk Modelling"
+    description: "Built ARIMA models for financial time-series forecasting."
+    technologies: ["Python", "statsmodels"]
+    link: "https://github.com/AakashVats15"
+
+  - name: "Systematic Trading Backtester"
+    description: "Vectorised, event-driven backtesting engine."
+    technologies: ["Python", "Pandas"]
+    link: "https://github.com/AakashVats15"
+
+  - name: "Factor Modelling & PCA Risk Decomposition"
+    description: "PCA-based multifactor models for risk decomposition."
+    technologies: ["Python", "NumPy"]
+    link: "https://github.com/AakashVats15"
+
+skills:
+  programming:
+    - "Python (NumPy, Pandas, SciPy, statsmodels, scikit-learn)"
+    - "MATLAB"
+    - "C/C++"
+    - "SQL"
+    - "Git"
+
+  quantitative_methods:
+    - "SDEs"
+    - "Ito calculus"
+    - "Risk-neutral valuation"
+    - "Monte Carlo simulation"
+    - "GARCH/ARIMA"
+    - "MLE"
+    - "PCA"
+    - "Covariance modelling"
+    - "Optimisation"
+
+  developer_tools:
+    - "Git"
+    - "Docker"
+    - "GitHub Actions"
+    - "VS Code"
+    - "Jupyter"
+    - "Conda"
+
+  languages:
+    - "English (Native)"
+    - "German (B2)"
+    - "French (A1)"
+    - "Hindi (Native)"
+
+meta:
+  last_updated: "2026-02-27"
+  version: "1.0.0"
